@@ -5,9 +5,27 @@
 
 .education .subtitle {
 	color: #000;
+	max-width: 4ch;
 }
 
-.aux-text {
+.education .container {
+	align-items: center;
+	position: relative;
+	padding: 120px 20px;
+}
+
+.education .container::after {
+	content: "";
+	display: block;
+	width: 130px;
+	height: 100px;
+	background: url("../img/detalhe.svg") no-repeat center;
+	position: absolute;
+	bottom: -50px;
+	left: 20px;
+}
+
+.education .aux-text {
 	color: #a3a3a3;
 }
 
@@ -75,15 +93,6 @@
 	position: relative;
 }
 
-.education .container {
-	padding: 120px 20px;
-}
-
-.education .subtitle {
-	color: #000;
-	max-width: 4ch;
-}
-
 .education-extra h3::before {
 	display: block;
 	content: "";
@@ -119,17 +128,6 @@
 .courses li {
 	display: flex;
 	justify-content: space-between;
-}
-
-.education .container::after {
-	content: "";
-	display: block;
-	width: 130;
-	height: 100px;
-	background: url("../img/detalhe.svg") no-repeat center;
-	position: relative;
-	bottom: -50px;
-	left: 20px;
 }
 
 @media (max-width: 800px) {
