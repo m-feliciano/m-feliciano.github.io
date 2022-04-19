@@ -44,11 +44,20 @@
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+	.intro h1 {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 350px) {
 	.intro img {
 		display: none;
 	}
 	.intro {
 		grid-template-columns: 1fr;
+	}
+	.intro h1 {
+		font-size: 3.5rem;
 	}
 }
