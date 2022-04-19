@@ -25,3 +25,13 @@
 .footer-contact li a {
 	color: #fff;
 }
+
+@media (max-width: 600px) {
+	.footer .container {
+		grid-template-columns: 1fr;
+	}
+
+	.footer-contact li {
+		font-size: 1.85rem;
+	}
+}

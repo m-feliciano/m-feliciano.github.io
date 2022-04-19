@@ -143,4 +143,12 @@
 	.education-text {
 		font-size: 1.125rem;
 	}
+
+	.education-extra h3::before {
+		position: initial;
+		margin-bottom: 10px;
+	}
+	.education .container::after {
+		width: 20px;
+	}
 }
