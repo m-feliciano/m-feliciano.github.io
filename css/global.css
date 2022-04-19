@@ -38,6 +38,14 @@ img {
 	max-width: 4ch;
 }
 
+.aux-text {
+	font-size: 1.5rem;
+	line-height: 1.45rem;
+	max-width: 45ch;
+	margin-bottom: 60px;
+	color: #525252;
+}
+
 @media (max-width: 800px) {
 	.subtitle {
 		font-size: 3rem;
