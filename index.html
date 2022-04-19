@@ -1,177 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Feliciano - System Analyst & Developer</title>
-		<meta name="description" content="System Analyst & Developer, Sao Paulo" />
-		<link rel="stylesheet" href="./css/style.min.css" />
-		<link rel="icon" href="favicon.svg" type="image/svg+xml" />
-	</head>
 
-	<body>
-		<header class="header">
-			<img src="./img/marca-name.svg" alt="Marcelo Feliciano" width="376" height="40" />
-			<nav>
-				<ul class="header-menu">
-					<li>
-						<a href="#experience">Experience</a>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Feliciano - Developer</title>
+	<meta name="description" content="System Analyst & Developer, Sao Paulo" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+	<script>
+		console.log('JS is running');
+		document.documentElement.className += ' js';
+	</script>
+</head>
+
+<body>
+	<header class="header">
+		<img src="./img/marca-name.svg" alt="Marcelo Feliciano" width="376" height="40" />
+		<nav data-tab="menu">
+			<ul class="header-menu">
+				<li>
+					<a href="#experience">Experience</a>
+				</li>
+				<li>
+					<a href="#education">Education</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container intro" data-tab="menu">
+		<img src="./img/perfil.jpg" alt="Gray Wolf" width="300" height="433" />
+		<div>
+			<h1>
+				System<br />
+				Analyst &<br />
+				Developer
+			</h1>
+			<p>Sao Paulo 🏙️</p>
+		</div>
+	</main>
+
+	<section class="container experience" id="experience" aria-label="Experience">
+		<h2 class="subtitle">Experience</h2>
+		<div>
+			<p class="aux-text">
+				Most of my experience is around <strong>Java</strong>/<strong>Angular</strong>
+				and backend development with <strong>Spring framework</strong>. I also like
+				exploring the world of <strong>JavaScript</strong> and new technologies.
+			</p>
+			<div class="company" data-anime="scroll">
+				<span class="company-year">04/2022</span>
+				<h3 class="company-title">SiplanControl-M</h3>
+				<span class="company-title">System Analyst I</span>
+				<p class="company-text">
+					Front-end and back-end web solutions development, using <strong>Java</strong>,
+					<strong>Angular</strong> and <strong>Postgre</strong>.
+				</p>
+				<ul class="company-skills">
+					<li>Java</li>
+					<li>Angular</li>
+				</ul>
+			</div>
+			<div class="company" data-anime="scroll">
+				<span class="company-year">06/2021</span>
+				<h3 class="company-title">Nuveto Comunicações</h3>
+				<span class="company-title">Full Stack Developer</span>
+				<p class="company-text">
+					Front-end and back-end web solutions development, using
+					<strong>Java</strong>, <strong>Angular</strong>.
+					Assistance in the maintenance and support of web
+					applications and <strong>databases</strong>.
+					Development of REST and SOAP API's.
+				</p>
+				<ul class="company-skills">
+					<li>Java</li>
+					<li>Angular</li>
+					<li>Postgre</li>
+					<li>InfluxDB</li>
+					<li>Grafana</li>
+					<li>API's</li>
+				</ul>
+			</div>
+			<div class="company" data-anime="scroll">
+				<span class="company-year">12/2020</span>
+				<h3 class="company-title">Pines Inc.</h3>
+				<span class="company-title">Support Technician</span>
+				<p class="company-text">
+					<strong>Support</strong> and <strong>network administration</strong>, Google
+					Workspace, hosting and IT resources management.
+				</p>
+				<ul class="company-skills">
+					<li>Field Service</li>
+					<li>Network</li>
+					<li>Security</li>
+					<li>Hosting</li>
+					<li>Google workspace</li>
+				</ul>
+			</div>
+			<div class="company" data-anime="scroll">
+				<span class="company-year">2019-2020</span>
+				<h3 class="company-title">SIMPRESS</h3>
+				<span class="company-title">Support Technician</span>
+				<p class="company-text">
+					<strong>Support</strong> and <strong>network administration</strong> and IT
+					resources management.
+				</p>
+				<ul class="company-skills">
+					<li>Field Service</li>
+					<li>Network</li>
+					<li>Security</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="education" id="education" aria-label="Education">
+		<div class="education container">
+			<h2 class="subtitle">Education</h2>
+			<div>
+				<p class="aux-text" data-anime="scroll">
+					My most recent academic experience was my <strong>Btech</strong>👨‍🎓 in
+					<strong>Systems Analysis</strong>. In addition, I previously studied technical
+					in business administration and today I keep up to date with intensive online
+					courses.
+				</p>
+				<ul class="school-list">
+					<li class="school" data-anime="scroll">
+						<span class="school-type">BTech</span>
+						<h3 class="school-course">System Analysis</h3>
+						<span class="school-institution">
+							<a href="http://www.fatecsp.br/" target="_blank">FATEC</a>
+						</span>
 					</li>
-					<li>
-						<a href="#education">Education</a>
-					</li>
-					<li>
-						<a href="#contact">Contact</a>
+					<li class="school" data-anime="scroll">
+						<span class="school-type">Technician</span>
+						<h3 class="school-course">Business Administration</h3>
+						<span class="school-institution">
+							<a href="http://www.etesaopaulo.com.br/" target="_blank">ETEC</a>
+						</span>
 					</li>
 				</ul>
-			</nav>
-		</header>
-		<main class="container intro">
-			<img src="./img/perfil.jpg" alt="Gray Wolf" width="300" height="433" />
-			<div>
-				<h1>
-					System<br />
-					Analyst &<br />
-					Developer
-				</h1>
-				<p>Sao Paulo 🏙️</p>
-			</div>
-		</main>
-
-		<section class="container experience" id="experience" aria-label="Experience">
-			<h2 class="subtitle">Experience</h2>
-			<div>
-				<p class="aux-text">
-					Most of my experience is around <strong>Java</strong>/<strong>Angular</strong>
-					and backend development with <strong>Spring framework</strong>. I also like
-					exploring the world of <strong>JavaScript</strong> and new technologies.
-				</p>
-				<div class="company">
-					<span class="company-year">12/2021-02/2022</span>
-					<h3 class="company-title">Nuveto Comunicações</h3>
-					<span class="company-title">Jr. Full Stack Developer</span>
-					<p class="company-text">
-						Front-end and back-end web solutions developement, using
-						<strong>Node.js</strong>, <strong>Java</strong>, <strong>Angular</strong> and
-						<strong>Bootstrap</strong>. Assistance in the maintenance and support of web
-						applications and <strong>relational databases</strong>. I also worked with
-						development and monitoring of REST and SOAP API's.
-					</p>
-					<ul class="company-skills">
-						<li>Java</li>
-						<li>Node.js</li>
-						<li>Angular</li>
-						<li>Bootstrap</li>
-						<li>REST API's</li>
-					</ul>
-				</div>
-				<div class="company">
-					<span class="company-year">6/2021</span>
-					<h3 class="company-title">Nuveto Comunicações</h3>
-					<span class="company-title">Intern Full Stack Developer</span>
-					<p class="company-text">
-						Front-end and back-end web solutions developement, using
-						<strong>Node.js</strong>, <strong>Java</strong>, <strong>Angular</strong> and
-						<strong>Bootstrap</strong>. Assistance in the maintenance and support of web
-						applications and <strong>relational databases</strong>. I also worked with
-						development and monitoring of REST and SOAP API's.
-					</p>
-					<ul class="company-skills">
-						<li>Java</li>
-						<li>Node.js</li>
-						<li>Angular</li>
-						<li>Bootstrap</li>
-						<li>REST API's</li>
-					</ul>
-				</div>
-				<div class="company">
-					<span class="company-year">12/2020</span>
-					<h3 class="company-title">Pines Inc.</h3>
-					<span class="company-title">Intern Support Technician</span>
-					<p class="company-text">
-						<strong>Support</strong> and <strong>network administration</strong>, Google
-						Workspace, hosting and IT resources management.
-					</p>
-					<ul class="company-skills">
-						<li>Field Service</li>
-						<li>Network</li>
-						<li>Security</li>
-						<li>Hosting</li>
-						<li>Google workspace</li>
-					</ul>
-				</div>
-				<div class="company">
-					<span class="company-year">2019-2020</span>
-					<h3 class="company-title">SIMPRESS</h3>
-					<span class="company-title">Support Technician</span>
-					<p class="company-text">
-						<strong>Support</strong> and <strong>network administration</strong> and IT
-						resources management.
-					</p>
-					<ul class="company-skills">
-						<li>Field Service</li>
-						<li>Network</li>
-						<li>Security</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section class="education" id="education" aria-label="Education">
-			<div class="education container">
-				<h2 class="subtitle">Education</h2>
-				<div>
-					<p class="aux-text">
-						My most recent academic experience was my <strong>Btech</strong>👨‍🎓 in
-						<strong>Systems Analysis</strong>. In addition, I previously studied technical
-						in business administration and today I keep up to date with intensive online
-						courses.
-					</p>
-					<ul class="school-list">
-						<li class="school">
-							<span class="school-type">BTech</span>
-							<h3 class="school-course">System Analysis</h3>
-							<span class="school-institution">FATEC</span>
-						</li>
-						<li class="school">
-							<span class="school-type">Technician</span>
-							<h3 class="school-course">Business Administration</h3>
-							<span class="school-institution">ETEC</span>
-						</li>
-					</ul>
-					<div class="education-extra">
-						<div class="courses">
-							<h3>Intensive courses</h3>
-							<ul>
-								<li>Java Development <span>77h</span></li>
-								<li>Spring React <span>18h</span></li>
-							</ul>
-						</div>
-						<div class="languages">
-							<h3>Languages</h3>
-							<ul>
-								<li>English<span>/ Intermediary B1</span></li>
-							</ul>
-						</div>
+				<div class="education-extra">
+					<div class="courses">
+						<h3 data-anime="scroll">Intensive courses</h3>
+						<ul>
+							<li data-anime="scroll">Java Development <span>77h</span></li>
+							<li data-anime="scroll">Spring React <span>18h</span></li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h3 data-anime="scroll">Languages</h3>
+						<ul>
+							<li data-anime="scroll">English<span>/ Intermediary B1</span></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<footer class="footer" id="contact">
-			<div class="footer container">
-				<p class="footer-text">
-					I am available for new projects at the moment. Contact me and we'll set up a
-					conversation 👋.
-				</p>
-				<ul class="footer-contact">
-					<li>marcelof@tuta.io</li>
-					<li>+55 11 93220-4275</li>
-					<li>
-						<a href="http://linkedin.com/in/marcelo-feliciano-16387a1a0/">@linkedin</a>
-					</li>
-					<li><a href="https://github.com/m-feliciano">@github</a></li>
-				</ul>
-			</div>
-		</footer>
-	</body>
+	<footer class="footer" id="contact">
+		<div class="footer container" data-anime="scroll">
+			<p class="footer-text">
+				I am available for new projects at the moment. Contact me and we'll set up a
+				conversation 👋.
+			</p>
+			<ul class="footer-contact">
+				<li>marcelof@tuta.io</li>
+				<li>
+					<a href="http://linkedin.com/in/marcelo-feliciano-16387a1a0/">@linkedin</a>
+				</li>
+				<li><a href="https://github.com/m-feliciano">@github</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="/index.js"></script>
+</body>
+
 </html>

@@ -22,6 +22,11 @@ img {
 	display: block;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .container {
 	max-width: 1000px;
 	padding: 40px 20px;
@@ -41,7 +46,6 @@ img {
 
 .aux-text {
 	font-size: 1.5rem;
-	line-height: 1.45rem;
 	max-width: 45ch;
 	margin-bottom: 60px;
 	color: #525252;
@@ -54,3 +58,17 @@ img {
 		max-width: initial;
 	}
 }
+
+
+.js [data-anime="scroll"] {
+	opacity: 0;
+	transition: .3s;
+	transform: translate3d(-30px, 0, 0);
+}
+
+.js [data-anime="scroll"].ativo {
+	opacity: 1;
+	transition: .3s;
+	transform: translate3d(0, 0, 0);
+}
+

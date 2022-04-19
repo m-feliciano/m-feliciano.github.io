@@ -23,6 +23,7 @@
 	position: absolute;
 	bottom: -50px;
 	left: 20px;
+	z-index: 10;
 }
 
 .education .aux-text {
@@ -151,4 +152,8 @@
 	.education .container::after {
 		width: 20px;
 	}
+}
+
+.school-institution a:hover {
+	color: #a3a3a3
 }
