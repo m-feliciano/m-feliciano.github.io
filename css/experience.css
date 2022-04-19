@@ -42,10 +42,12 @@
 
 .company-year {
 	position: absolute;
-	top: 30px;
+	top: 22px;
 	left: -100px;
 	color: #525252;
 	font-size: 0.875rem;
+	width: 80px;
+	text-align: right;
 }
 
 .company-title {
@@ -73,4 +75,29 @@
 	border-radius: 4px;
 	background: #fff;
 	padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+	.experience {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+	.experience .subtitle {
+		color: #141414;
+	}
+	.experience-text {
+		font-size: 1.25rem;
+	}
+	.company-year {
+		position: initial;
+		order: 1;
+		width: 120px;
+		text-align: left;
+	}
+}
+
+@media (max-width: 400px) {
+	.company {
+		grid-template-columns: 1fr;
+	}
 }
